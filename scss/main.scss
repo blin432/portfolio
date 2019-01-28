@@ -1,0 +1,254 @@
+
+
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+    margin:0;
+}
+
+.landing-page{
+    background-image:url("Ben3.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:cover;
+    height:100vh;
+    z-index: -1;
+}
+
+.about-me-card{
+    height:400px;
+    width: 75%;
+    border-radius:50%;
+}
+
+.profile-pic{
+    height:350px;
+    width:350px;
+    border-radius:50%;
+}
+
+.contact-section{
+    background-image:url();
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:cover;
+
+    z-index: -1;
+}
+.about-me-description{
+    margin-left:20px;
+    height:350px;
+}
+.about-me-header{
+    font-size:48px;
+    padding:0;
+    margin:0;
+    height:100vh;
+    color:white;
+    background-image:url("black.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:cover;
+    z-index: -1;
+    
+}
+
+
+
+.about-me-main{
+    height:100vh;
+    margin:0;
+    padding:0;
+    
+}
+
+.about-me-main h2,p{
+    overflow: hidden;
+}
+
+.portfolio-main{ 
+    padding:0;
+    margin:0;
+    color:white;
+    background-image:url("person.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:cover;
+    height: 100vh;
+    z-index: -1;
+   
+}
+.portfolio-header{
+    padding:0;
+    margin:0;
+    color:white;
+    background-image:url("black.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:cover;
+    height: 100vh;
+    z-index: -1;
+    
+}
+.portfolio-header p:first-child{
+    font-size:48px;
+}
+.portfolio-header p:nth-child(2) {
+    font-size:25px;
+}
+.portfolio-header p:nth-child(3) {
+    font-size:25px;
+}
+
+.contact-header{
+    font-size:48px;
+    color:white;
+    background-image:url("black.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:cover;
+    height: 100vh;
+    z-index: -1;
+    padding:0;
+    margin:0;
+}
+
+#collpase {
+    display:inline-block;
+}
+#show {
+    display:inline-block;
+}
+
+
+
+//menu button
+
+.menu-btn{
+    cursor:pointer;
+
+    .btn-line{
+        width:28px;
+        height:3px;
+        margin: 0 0 5px 0;
+        background:black;
+
+    }
+}
+.one-two{
+    position:fixed;
+    margin-top:85vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+
+}
+.menu {
+    visibility: visible;
+  
+    &.show {
+      visibility: visible;
+    }
+  
+    &-nav {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items:center;
+      background-color:black;
+      
+    }
+    
+}
+
+
+
+.icons a{
+    padding:7px;
+    color:black;
+}
+.icons{
+    margin-top:25px;
+}
+
+.contact-info p{
+    padding:0;
+    margin:0;
+    font-size:24px;
+    line-height:28px;
+}
+
+.contact-main-wrapper{
+    margin-top:25px;
+}
+.thank-you-note p{
+    font-size:32px;
+}
+.thank-you-note{
+    text-align: center;
+    margin-bottom:100px;
+    margin-top:50px;
+}
+
+.contact-main-wrapper{
+    text-align:center;
+}
+
+.project-page{
+    height:50vh;
+    background-image: url("project.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity:0.5;
+    z-index: -1;
+}
+.resume-page{
+    height:50vh;
+    background-image:url("resume.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    z-index: -1;
+}
+
+.project-page p{
+    font-size: 40px;
+    color:black;
+    z-index: 3;
+    opacity:1;
+    
+   
+}
+.resume-page p{
+    font-size: 40px;
+    color:black;
+    z-index: 3;
+
+}
+
+.landing-page-wrapper p:first-child{
+    font-size: 72px;
+    padding:0;
+    margin:0;
+    text-align:center;
+    
+}
+.landing-page-wrapper p{
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+
+.landing-page-wrapper p:nth-child(2) {
+    font-size:24px;
+}
+.landing-page-wrapper p:nth-child(3) {
+    font-size:24px;
+}
+.landing-page-wrapper{
+    margin-bottom: 300px;
+}
+
