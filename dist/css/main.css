@@ -4,10 +4,6 @@ body {
 
 .landing-page {
   height: 100vh;
-  background-image: url("/landing-page.jpeg");
-  background-position: center;
-  background-repeat: none;
-  background-size: cover;
   z-index: -1;
   margin: 0; }
 
@@ -58,6 +54,42 @@ h2 {
 #show {
   display: inline-block; }
 
+.typewriter {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite; }
+
+.project-container {
+  margin-top: 75px; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 20%; } }
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent; }
+  50% {
+    border-color: orange; } }
+
 .menu-btn {
   cursor: pointer; }
   .menu-btn .btn-line {
@@ -96,7 +128,7 @@ h2 {
   opacity: 1; }
 
 .landing-page-wrapper p:first-child {
-  font-size: 72px;
+  font-size: 32px;
   padding: 0;
   margin: 0;
   text-align: center; }
@@ -107,10 +139,21 @@ h2 {
   text-align: center; }
 
 .landing-page-wrapper p:nth-child(2) {
-  font-size: 24px; }
+  font-size: 18px;
+  animation-duration: 3.2s;
+  animation-name: fadeIn; }
 
 .landing-page-wrapper p:nth-child(3) {
-  font-size: 24px; }
+  font-size: 84px;
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation-duration: 4.5s;
+  animation-name: fadeIn; }
+
+.landing-page-wrapper p:nth-child(4) {
+  font-size: 24px;
+  animation-duration: 6s;
+  animation-name: fadeIn; }
 
 .landing-page-wrapper {
   margin-bottom: 300px; }
