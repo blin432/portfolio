@@ -7,111 +7,58 @@ body{
 }
 
 .landing-page{
-    background-image:url("Ben3.jpg");
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:cover;
     height:100vh;
+    background-image:url("/landing-page.jpeg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
     z-index: -1;
+    margin:0;
 }
 
-.about-me-card{
+h2{
+    font-size: 50px;
+}
+.about-me-section{
+    width:100%;
+}
+.icons{
+    transition:all .2s ease-in-out;
+}
+.icons:hover{
+    transform:scale(1.2);
+}
+
+.contact-icon{
+    transition:all .2s ease-in-out;
+}
+.contact-icon:hover{
+    transform:scale(1.2);
+}
+.about-me-picture{
     height:400px;
-    width: 75%;
-    border-radius:50%;
+    width:100%;
+   
 }
-
+.about-me-card{
+    margin-top:20px;
+    box-shadow:5px 5px 5px 5px grey;
+    background-color:whitesmoke;
+}
 .profile-pic{
     height:350px;
     width:350px;
     border-radius:50%;
 }
-
-.contact-section{
-    background-image:url();
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position:cover;
-
-    z-index: -1;
+.section-container{
+    margin-top:100px;
 }
-.about-me-description{
-    margin-left:20px;
-    height:350px;
-}
-.about-me-header{
-    font-size:48px;
-    padding:0;
-    margin:0;
-    height:100vh;
-    color:white;
-    background-image:url("black.jpeg");
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position:cover;
-    z-index: -1;
-    
+.projects{
+    margin-top:50px;
 }
 
-
-
-.about-me-main{
-    height:100vh;
-    margin:0;
-    padding:0;
-    
-}
-
-.about-me-main h2,p{
-    overflow: hidden;
-}
-
-.portfolio-main{ 
-    padding:0;
-    margin:0;
-    color:white;
-    background-image:url("person.jpeg");
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position:cover;
-    height: 100vh;
-    z-index: -1;
-   
-}
-.portfolio-header{
-    padding:0;
-    margin:0;
-    color:white;
-    background-image:url("black.jpeg");
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position:cover;
-    height: 100vh;
-    z-index: -1;
-    
-}
-.portfolio-header p:first-child{
-    font-size:48px;
-}
-.portfolio-header p:nth-child(2) {
-    font-size:25px;
-}
-.portfolio-header p:nth-child(3) {
-    font-size:25px;
-}
-
-.contact-header{
-    font-size:48px;
-    color:white;
-    background-image:url("black.jpeg");
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position:cover;
-    height: 100vh;
-    z-index: -1;
-    padding:0;
-    margin:0;
+.contact-icon{
+    padding:30px;
 }
 
 #collpase {
@@ -142,14 +89,14 @@ body{
     display:flex;
     align-items:center;
     justify-content: center;
-
-
 }
 .menu {
     visibility: visible;
+    z-index: 4;
   
     &.show {
       visibility: visible;
+      z-index: 4;
     }
   
     &-nav {
@@ -157,62 +104,25 @@ body{
       flex-flow: row nowrap;
       align-items:center;
       background-color:black;
+      z-index: 4;
       
     }
     
 }
 
-
-
-.icons a{
-    padding:7px;
-    color:black;
-}
-.icons{
-    margin-top:25px;
+.icons i{
+    padding:30px;
 }
 
-.contact-info p{
-    padding:0;
-    margin:0;
-    font-size:24px;
-    line-height:28px;
-}
+// .icons a{
+//     padding:7px;
+//     color:black;
+// }
+// .icons{
+//     margin-top:25px;
+// }
 
-.contact-main-wrapper{
-    margin-top:25px;
-}
-.thank-you-note p{
-    font-size:32px;
-}
-.thank-you-note{
-    text-align: center;
-    margin-bottom:100px;
-    margin-top:50px;
-}
 
-.contact-main-wrapper{
-    text-align:center;
-}
-
-.project-page{
-    height:50vh;
-    background-image: url("project.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity:0.5;
-    z-index: -1;
-}
-.resume-page{
-    height:50vh;
-    background-image:url("resume.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    z-index: -1;
-}
 
 .project-page p{
     font-size: 40px;
@@ -220,13 +130,6 @@ body{
     z-index: 3;
     opacity:1;
     
-   
-}
-.resume-page p{
-    font-size: 40px;
-    color:black;
-    z-index: 3;
-
 }
 
 .landing-page-wrapper p:first-child{

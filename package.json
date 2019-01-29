@@ -1,7 +1,6 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.11.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blin432/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blin432/portfolio/issues"
+  },
+  "homepage": "https://github.com/blin432/portfolio#readme",
+  "description": ""
 }
