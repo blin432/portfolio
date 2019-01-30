@@ -53,17 +53,17 @@
 
    
 
-        <section class="landing-page d-flex align-items-center">
-            <div class="landing-page-wrapper container d-flex flex-column justify-content-center align-items-center" id="text">
-                <p class="typewriter">"Hello World"</p>
-                <p class="mt-3" >Meet</p>
+        <section class="landing-page d-flex align-items-center justify-content-center">
+            <div class="landing-page-wrapper container d-flex flex-column justify-content-center align-items-center text-center">
+                <!-- <p class="typewriter">"Hello World"</p>
+                <p class="mt-3" >Meet</p> -->
                 <p >Benjamin Lin</p>
                 <p>Software Developer</p>
             </div>
         </section> 
-    <div class="container">
+    <div>
         <section class="about-me-section d-flex justify-content-center ">
-            <div class="about-me-card row">
+            <div class="about-me-card container row">
                 <div class="col-lg-6 about-me-picture d-flex justify-content-center align-items-center">
                     <img class="profile-pic" src="/profile.jpeg"/>
                 </div>
@@ -78,40 +78,51 @@
                 </div>
             </div>
         </section>
-        <section class="section-container d-flex justify-content-center">
-                <div class="projects">
+        <section class="projects-container d-flex justify-content-center">
+                <div class="projects container">
                     <div class="text-center">
                         <h2 class="mt-3">Projects</h2>
                     </div>
-                    <div class=" project-container row">
-                            <div class="col-sm-4">
+                    <div class="project-container-individual row">
+                            <div class="col-sm-6 project-card ">
                               <div class="card">
                                 <div class="card-body">
                                   <h5 class="card-title">Meme-Spiration</h5>
                                   <p class="card-text">Express,Node, </p>
-                                  <div class="project-picture"></div>
+                                  <div class="project-picture"><img src="/project.jpeg"></div>
                                   <a href="#" class="btn btn-primary">GitHub</a>
                                   <a href="#" class="btn btn-primary">liveSite</a>
                                 </div>
                               </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-6 project-card">
                               <div class="card">
                                 <div class="card-body">
                                   <h5 class="card-title">Mom'd</h5>
                                   <p class="card-text">PostgreSQL,express,ajax</p>
-                                  <div class="project-picture"></div>
+                                  <div class="project-picture"><img src="/project.jpeg"></div>
                                   <a href="#" class="btn btn-primary">GitHub</a>
                                   <a href="#" class="btn btn-primary">livesite</a>
                                 </div>
                               </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-6 project-card">
                                 <div class="card">
                                   <div class="card-body">
                                     <h5 class="card-title">Special title treatment</h5>
                                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <div class="project-picture"></div>
+                                    <div class="project-picture"><img src="/project.jpeg"></div>
+                                    <a href="#" class="btn btn-primary">GitHub</a>
+                                    <a href="#" class="btn btn-primary">liveSite</a>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 project-card">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <div class="project-picture"><img src="/project.jpeg"></div>
                                     <a href="#" class="btn btn-primary">GitHub</a>
                                     <a href="#" class="btn btn-primary">liveSite</a>
                                   </div>
@@ -120,8 +131,8 @@
                     </div>
                 </div>
         </section>
-        <section class="section-container d-flex justify-content-center">
-            <div class="skills">
+        <section class="skills-container d-flex justify-content-center">
+            <div class="skills container">
                 <div class=" text-center ">
                     <h2 class="mt-3">Skills</h2>
                 </div>
@@ -165,27 +176,32 @@
                 </div>
                
         </section>
-        <section class="section-container d-flex justify-content-center">
-            <div class="contact row">
+        <section class="contact-container d-flex justify-content-center">
+            <div class="contact container d-flex justify-content-center">
                 <div class="text-center">
-                    <div class="contract-description">
-                        <h2 class="mb-3">Contact Me</h2>
+                    <div class="contact-description">
+                        <h2>Contact Me</h2>
                         <p>Lets create and innovate</p>
                     </div>
-                    <div class="d-flex flex-row justify-content-between">   
+                    <div class="d-flex mb-5 flex-row justify-content-between">   
                             <div class="contact-icon">
-                                <i class="fab fa-4x fa-github-square"></i>
+                                <a href="https://github.com/blin432"><i class="fab fa-3x fa-github-square"></i></a>
                             </div>
                             <div class="contact-icon">
-                                <i class="far fa-4x fa-envelope"></i>
+                                <a href="https://www.linkedin.com/in/benjamin-lin-91319a48/"><i class="far fa-3x fa-envelope"></i></a>
                             </div>
                             <div class="contact-icon">
-                                <i class="fab fa-4x fa-linkedin"></i>
+                                <a href="mailto:blin432@gmail.com"> <i class="fab fa-3x fa-linkedin"></i></a>
                             </div>
                     </div> 
                 </div>
-               
         </section>
+        <footer class="footer-container d-flex justify-content-center">
+            <div class="contact container d-flex justify-content-center">
+                
+                <p>Lets create and innovate</p>
+            </div>
+        </footer>
     </div>
 </body>
 <script src="main.js"></script>
