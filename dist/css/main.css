@@ -8,7 +8,6 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -1;
   margin: 0; }
 
 h2 {
@@ -52,17 +51,20 @@ h2 {
 
 .skills-container {
   margin-top: 100px;
+  padding-bottom: 50px;
   background-color: #D3D3D3; }
 
 .contact-description h2 {
   margin-top: 75px; }
 
 .contact-description p {
-  margin-top: 50px; }
+  margin-top: 20px;
+  font-size: 24px; }
 
 .footer-container {
   background-color: black;
-  color: white; }
+  color: white;
+  height: 100px; }
 
 .projects {
   margin-top: 50px; }
@@ -120,23 +122,21 @@ h2 {
 
 .one-two {
   position: fixed;
-  margin-top: 85vh;
+  margin-top: 70vh;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  z-index: 3; }
 
 .menu {
-  visibility: visible;
-  z-index: 4; }
+  visibility: visible; }
   .menu.show {
-    visibility: visible;
-    z-index: 4; }
+    visibility: visible; }
   .menu-nav {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    background-color: black;
-    z-index: 4; }
+    background-color: black; }
 
 .icons i {
   padding: 30px; }
