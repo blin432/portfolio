@@ -3,7 +3,9 @@ body {
   margin: 0; }
 
 .navbar {
-  background: transparent; }
+  background: transparent;
+  padding-top: 0;
+  padding-bottom: 0; }
 
 .navbar-brand {
   font-family: 'Herr Von Muellerhoff', cursive;
@@ -13,6 +15,14 @@ body {
   position: relative;
   color: #000;
   text-decoration: none; }
+
+h2 {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 50px; }
+
+.skills {
+  margin-bottom: 25px; }
 
 .nav-item a:before {
   content: "";
@@ -37,9 +47,6 @@ body {
 .landing-page {
   height: 100vh;
   background-color: #FEFFD4; }
-
-h2 {
-  font-size: 50px; }
 
 .about-me-section {
   width: 100%;
@@ -82,27 +89,21 @@ h2 {
 .section-container {
   margin-top: 100px; }
 
-.skills-container {
-  padding-top: 70px;
-  padding-bottom: 50px; }
-
-.contact-description h2 {
-  margin-top: 75px; }
-
 .contact-description p {
-  margin-top: 20px;
-  font-size: 24px; }
+  font-size: 24px;
+  margin: 0;
+  padding: 0; }
 
 .footer-container {
   background-color: black;
   color: white;
   height: 100px; }
 
-.projects {
-  margin-top: 50px; }
-
 .projects-container {
   background-color: #FEFFD4; }
+
+.projects {
+  margin-bottom: 40px; }
 
 .contact-icon {
   padding: 30px; }
@@ -126,6 +127,17 @@ h2 {
 
 .project-container {
   margin-top: 75px; }
+
+.project-picture1 img {
+  height: 300px;
+  width: 200px; }
+
+.project-picture img {
+  height: 300px;
+  width: 300px; }
+
+.card-body a {
+  margin-top: 15px; }
 
 @keyframes fadeIn {
   0% {
@@ -189,6 +201,13 @@ h2 {
   padding: 10px;
   text-align: center; }
 
+.card a {
+  background-color: #FEFFD4;
+  color: black; }
+
+.card p {
+  margin-top: 25px; }
+
 .icon {
   height: 50px;
   width: 50px; }
@@ -217,3 +236,13 @@ h2 {
 
 .landing-page-wrapper {
   margin-bottom: 150px; }
+
+@media only screen and (max-width: 1000px) {
+  .about-me-picture {
+    border-right: none; }
+  .about-me-description {
+    border-left: none; } }
+
+@media only screen and (max-width: 600px) {
+  .landing-page-wrapper p:first-child {
+    font-size: 52px; } }
