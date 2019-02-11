@@ -2,26 +2,51 @@ body {
   font-family: 'Cormorant Garamond', serif;
   margin: 0; }
 
+.navbar {
+  background: transparent; }
+
+.navbar-brand {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 50px; }
+
+.nav-item a {
+  position: relative;
+  color: #000;
+  text-decoration: none; }
+
+.nav-item a:before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 1px;
+  bottom: 8px;
+  left: 4px;
+  right: 0;
+  background-color: black;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s; }
+
+.nav-item a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1); }
+
 .landing-page {
   height: 100vh;
-  background-image: url("/images.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0; }
+  background-color: #FEFFD4; }
 
 h2 {
   font-size: 50px; }
 
 .about-me-section {
   width: 100%;
-  background-color: #D3D3D3; }
+  background-color: white; }
 
-.icons {
-  transition: all .2s ease-in-out; }
-
-.icons:hover {
-  transform: scale(1.2); }
+.contact-container {
+  background-color: #FEFFD4; }
 
 .contact-icon {
   transition: all .2s ease-in-out; }
@@ -31,15 +56,23 @@ h2 {
 
 .about-me-picture {
   height: 400px;
-  width: 100%; }
+  width: 100%;
+  border-right: 0.5px solid #FEFFD4; }
+
+.about-me-description {
+  border-left: 0.5px solid #FEFFD4; }
+
+.about-me-description p {
+  font-size: 18px; }
+
+.about-me-description h2 {
+  margin-bottom: 20px; }
 
 .about-me-card {
   margin-top: 20px;
   height: 75%;
   margin-bottom: 100px;
-  margin-top: 100px;
-  box-shadow: 5px 5px 5px 5px grey;
-  background-color: whitesmoke; }
+  margin-top: 100px; }
 
 .profile-pic {
   height: 350px;
@@ -50,9 +83,8 @@ h2 {
   margin-top: 100px; }
 
 .skills-container {
-  margin-top: 100px;
-  padding-bottom: 50px;
-  background-color: #D3D3D3; }
+  padding-top: 70px;
+  padding-bottom: 50px; }
 
 .contact-description h2 {
   margin-top: 75px; }
@@ -68,6 +100,9 @@ h2 {
 
 .projects {
   margin-top: 50px; }
+
+.projects-container {
+  background-color: #FEFFD4; }
 
 .contact-icon {
   padding: 30px; }
@@ -138,8 +173,10 @@ h2 {
     align-items: center;
     background-color: black; }
 
-.icons i {
-  padding: 30px; }
+.icon-wrapper {
+  padding: 30px;
+  height: 150px;
+  width: 150px; }
 
 .landing-page-wrapper p:first-child {
   font-size: 84px;
@@ -151,6 +188,16 @@ h2 {
 .project-card {
   padding: 10px;
   text-align: center; }
+
+.icon {
+  height: 50px;
+  width: 50px; }
+
+.icon {
+  transition: all .2s ease-in-out; }
+
+.icon:hover {
+  transform: scale(1.2); }
 
 .landing-page-wrapper p:nth-child(2) {
   overflow: hidden;

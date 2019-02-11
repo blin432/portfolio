@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Mr+De+Haviland" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="/dist/css/main.css" />
    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -16,8 +17,29 @@
 
 </head>
 <body>
-    
-    <nav class="one-two">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">BLin</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-3 ml-auto">
+            <li class="nav-item  pr-4">
+                <a class="nav-link" href="#">Home</a>
+                </li>
+            <li class="nav-item pr-4">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item pr-4">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item pr-4">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- <nav class="one-two">
         <div class="menu-btn">
             <div class="btn-line"></div>
             <div class="btn-line"></div>
@@ -49,11 +71,11 @@
                 </div>
             </div>
         </nav>
-    </nav>
+    </nav> -->
 
    
 
-        <section class="landing-page d-flex align-items-center justify-content-center">
+        <section class="landing-page  d-flex align-items-center justify-content-center">
             <div class="landing-page-wrapper container d-flex flex-column justify-content-center align-items-center text-center">
                 <!-- <p class="typewriter">"Hello World"</p>
                 <p class="mt-3" >Meet</p> -->
@@ -65,11 +87,11 @@
         <section class="about-me-section d-flex justify-content-center ">
             <div class="about-me-card container row">
                 <div class="col-lg-6 about-me-picture d-flex justify-content-center align-items-center">
-                    <img class="profile-pic" src="/profile.jpeg"/>
+                    <img class="profile-pic" src="/profile.jpg"/>
                 </div>
-                <div class="col-lg-6 about-me-description d-flex justify-content-center my-auto">
+                <div class="col-lg-6 about-me-description d-flex justify-content-center">
                         <div>
-                        <h2 class="mt-3">About Me</h2>
+                        <h2 >About Me</h2>
                         <p> Hello! I'm Ben and I am a Full Stack Developer currently residing in Atlanta, GA. Originally, I am from Louisiana where I graduated from Louisiana State Univerity with a bachelors degreee in Civil Engineering. I worked serveral enjoyable years as a Structural Engineer here in Atlanta, but decided I was ready for a new challege </p>
                         <p>I began teaching myself to code through various tutorial websites and began to discover that I really loved the challenge and power to create something throught language and logic in software development.I graduated from the six month, full stack flex program at DigitalCrafts in March of 2019</p>
                         </div>
@@ -77,9 +99,9 @@
             </div>
         </section>
         <section class="projects-container d-flex justify-content-center">
-                <div class="projects container">
+                <div class="projects container mb-5">
                     <div class="text-center">
-                        <h2 class="mt-3">Projects</h2>
+                        <h2 class="mt-3 mb-5">Projects</h2>
                     </div>
                     <div class="project-container-individual row">
                             <div class="col-sm-6 project-card ">
@@ -132,44 +154,57 @@
         <section class="skills-container d-flex justify-content-center">
             <div class="skills container">
                 <div class=" text-center ">
-                    <h2 class="mt-3">Skills</h2>
+                    <h2 >Skills</h2>
                 </div>
                 <div class=" text-center d-flex justify-content-start flex-wrap">
-                    <div class="icons ">
-                        <i class="fab fa-4x fa-node-js"></i>
-                        <p>node.js</p>
+                    <div class="icon-wrapper">
+                        <!-- <i class="icon fab fa-4x fa-node-js"></i> -->
+                        <img class="icon" src="https://cdn.freebiesupply.com/logos/large/2x/nodejs-icon-logo-png-transparent.png"/>
+                        <p>Node.js</p>
                     </div>
-                    <div class="icons">
-                        <i class="fas fa-4x fa-database"></i>
-                        <p>postgreSQL</p>
+                    <div class="icon-wrapper">
+                        <img class="icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple114/v4/43/06/98/4306980b-1650-6a40-f754-9e32f14dd314/AppIcon-0-85-220-4-2x.png/1200x630bb.png"/>
+                        <p>Postico</p>
                     </div>
-                    <div class="icons">
-                        <i class="fab fa-4x fa-html5"></i>
+                    <div class="icon-wrapper">
+                        <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/2000px-Postgresql_elephant.svg.png"/>
+                        <p>PostgreSQL</p>
+                        </div>
+                    <div class="icon-wrapper">
+                            <img class="icon" src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"/>
                         <p>HTML</p>
                     </div>
-                    <div class="icons">
-                        <i class="fab fa-4x fa-css3"></i>
+                    <div class="icon-wrapper">
+                            <img class="icon" src="data:image/png;base64,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"/>
                         <p>CSS</p>
                     </div>
-                    <div class="icons">
-                        <i class="fab fa-4x fa-js"></i>
+                    <div class="icon-wrapper">
+                            <img class="icon" src="http://pluspng.com/img-png/logo-javascript-png-javascript-tutorials-400.png"/>
                         <p>JavaScript</p>
                     </div>
-                    <div class="icons">
-                        <i class="fas fa-4x fa-bolt"></i>
+                    <div class="icon-wrapper">
+                            <img class="icon" src="https://banner2.kisspng.com/20180711/yfe/kisspng-express-js-node-js-javascript-mongodb-node-js-5b461d28173fc6.1251392115313216400952.jpg"/>
                         <p>Express</p>
                     </div>
-                    <div class="icons">
-                        <i class="fab fa-4x fa-angular"></i>
-                        <p>Angular</p>
+                    <div class="icon-wrapper">
+                            <img class="icon" src="http://www.stickpng.com/assets/images/5848309bcef1014c0b5e4a9a.png"/>
+                        <p>Redux</p>
                     </div>
-                    <div class="icons">
-                            <i class="fab fa-4x fa-react"></i>
+                    <div class="icon-wrapper">
+                            <img class="icon" src="https://arcweb.co/wp-content/uploads/2016/10/react-logo-1000-transparent.png"/>
                         <p>React</p>
                     </div>
-                    <div class="icons">
-                            <i class="fas fa-4x fa-cubes"></i>
+                    <div class="icon-wrapper">
+                            <img class="icon" src="http://www.stickpng.com/assets/images/58482ee4cef1014c0b5e4a75.png"/>
                         <p>Sequelize</p>
+                    </div>
+                    <div class="icon-wrapper">
+                            <img class="icon" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/>
+                        <p>Github</p>
+                    </div>
+                    <div class="icon-wrapper">
+                            <img class="icon" src="https://res.cloudinary.com/practicaldev/image/fetch/s--_o289Tr---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/tyqdiniizxu2d4v9ivjh.png"/>
+                        <p>Bootstrap</p>
                     </div>
                 </div>
                
@@ -186,10 +221,10 @@
                                 <a href="https://github.com/blin432"><i class="fab fa-3x fa-github-square"></i></a>
                             </div>
                             <div class="contact-icon">
-                                <a href="https://www.linkedin.com/in/benjamin-lin-91319a48/"><i class="far fa-3x fa-envelope"></i></a>
+                                <a href="mailto:blin432@gmail.com"><i class="far fa-3x fa-envelope"></i></a>
                             </div>
                             <div class="contact-icon">
-                                <a href="mailto:blin432@gmail.com"> <i class="fab fa-3x fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/benjamin-lin-91319a48/"> <i class="fab fa-3x fa-linkedin"></i></a>
                             </div>
                     </div> 
                 </div>
@@ -201,5 +236,6 @@
         </footer>
     </div>
 </body>
+<script src="anime.min.js"></script>
 <script src="main.js"></script>
 </html>
