@@ -1,0 +1,28 @@
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 20%;}
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+@mixin mediaLg{
+    @media screen and (max-width:1000px){
+        @content;
+    }
+}
+
+@mixin mediaMd{
+    @media screen and (max-width:600px){
+        @content;  
+    }
+}

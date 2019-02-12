@@ -1,3 +1,23 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 20%; } }
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent; }
+  50% {
+    border-color: orange; } }
+
 body {
   font-family: 'Cormorant Garamond', serif;
   margin: 0; }
@@ -139,26 +159,6 @@ h2 {
 .card-body a {
   margin-top: 15px; }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0; }
-  to {
-    width: 20%; } }
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to {
-    border-color: transparent; }
-  50% {
-    border-color: orange; } }
-
 .menu-btn {
   cursor: pointer; }
   .menu-btn .btn-line {
@@ -237,12 +237,12 @@ h2 {
 .landing-page-wrapper {
   margin-bottom: 150px; }
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
+  .landing-page-wrapper p:first-child {
+    font-size: 52px; } }
+
+@media screen and (max-width: 1000px) {
   .about-me-picture {
     border-right: none; }
   .about-me-description {
     border-left: none; } }
-
-@media only screen and (max-width: 600px) {
-  .landing-page-wrapper p:first-child {
-    font-size: 52px; } }

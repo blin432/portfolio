@@ -1,5 +1,7 @@
 
 
+@import 'config';
+
 
 body{
     font-family: 'Cormorant Garamond', serif;
@@ -20,25 +22,18 @@ body{
     color: #000;
     text-decoration: none;
   }
-  h2{
+
+h2{
       margin-top:80px;
       margin-bottom:50px;
       font-size: 50px;
   }
- .skills{
+
+.skills{
      margin-bottom:25px;
  }
-//   .hover-effect :visited {
-//     color: #000;
-//     text-decoration:none;
-//   }
-  
-//   .hover-effect:hover {
-//     color: #000;
-//     text-decoration:none;
-//   }
-  
-  .nav-item a:before {
+
+.nav-item a:before {
     content: "";
     position: absolute;
     width: 90%;
@@ -52,26 +47,18 @@ body{
     transform: scaleX(0);
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
-  }
+}
   
-  .nav-item a:hover:before {
+.nav-item a:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-  }
+}
   
-
 .landing-page{
     height:100vh;
-    // background-image:url("/images.jpeg");
-    // background-size:cover;
-    // background-position:center;
-    // background-repeat: no-repeat;
     background-color:#FEFFD4;
-    
-   
 }
-
 
 .about-me-section{
     width:100%;
@@ -115,21 +102,16 @@ body{
     width:350px;
     border-radius:50%;
 }
+
 .section-container{
-    margin-top:100px;
-    
+    margin-top:100px;    
 }
-
-
 
 .contact-description p{
     font-size:24px;
     margin:0;
     padding:0;
 }
-
-
-
 
 .footer-container{
     background-color:black;
@@ -153,9 +135,6 @@ body{
 #show {
     display:inline-block;
 }
-
-
-//animation
 
 .typewriter {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -184,25 +163,8 @@ body{
 
 .card-body a{
     margin-top:15px;
-
 }
-@keyframes fadeIn {
-    0% {opacity: 0;}
-    
-    100% {opacity: 1;}
- } 
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 20%;}
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }
+
 //menu button
 
 .menu-btn{
@@ -213,7 +175,6 @@ body{
         height:3px;
         margin: 0 0 5px 0;
         background:black;
-
     }
 }
 .one-two{
@@ -227,22 +188,15 @@ body{
 }
 .menu {
     visibility: visible;
-    
-  
     &.show {
       visibility: visible;
-      
     }
-  
     &-nav {
       display: flex;
       flex-flow: row nowrap;
       align-items:center;
       background-color:black;
-     
-      
     }
-    
 }
 
 .icon-wrapper {
@@ -251,19 +205,8 @@ body{
     width:150px;
 }
 
-// .icons a{
-//     padding:7px;
-//     color:black;
-// }
-// .icons{
-//     margin-top:25px;
-// }
-
-
-
 .landing-page-wrapper p:first-child{
     font-size: 84px;
-
     letter-spacing: .15em; /* Adjust as needed */
     animation-duration:3s;
     animation-name:fadeIn;
@@ -273,7 +216,6 @@ body{
     padding:10px;
     text-align:center;
 }
-
 
 .card a{
   background-color:#FEFFD4;
@@ -293,34 +235,6 @@ body{
 .icon:hover{
     transform:scale(1.2);
 }
-// .icon:hover{
-// 	animation: flip-diagonal-2-br 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-// }
-
-// @keyframes flip-diagonal-2-br {
-//     0% {
-//       transform: rotate3d(-1, 1, 0, 0deg);
-//     }
-//     50%{
-//         transform:rotate3d(-1,1,0,180deg);
-//     }
-//     100% {
-//       transform: rotate3d(-1, 1, 0, 360deg);
-//     }
-//   }
-  
-// .landing-page-wrapper p:nth-child(2) {
-//     font-size:18px;
-//     animation-duration:3.2s;
-    
-//     animation-name:fadeIn;
-// }
-// .landing-page-wrapper p:nth-child(3) {
-//     font-size:84px;
-//     letter-spacing: .15em; /* Adjust as needed */
-//     animation-duration:4.5s;
-//     animation-name:fadeIn;
-// }
 
 .landing-page-wrapper p:nth-child(2) {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -337,22 +251,6 @@ body{
 }
 .landing-page-wrapper{
     margin-bottom: 150px;
-    
 }
 
-@media only screen and (max-width:1000px){
-    .about-me-picture{
-        border-right:none;
-    }
-    .about-me-description{
-        border-left:none;
-    }
-}
-
-@media only screen and (max-width:600px){
-  
-    .landing-page-wrapper p:first-child{
-            font-size:52px;
-
-    }
-}
+@import 'mobile';

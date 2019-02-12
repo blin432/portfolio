@@ -1,0 +1,17 @@
+
+
+@include mediaMd{
+    .landing-page-wrapper p:first-child{
+        font-size:52px; 
+    }
+}
+
+
+@include mediaLg{
+    .about-me-picture{
+        border-right:none;
+    }
+    .about-me-description{
+        border-left:none;
+    }
+}
