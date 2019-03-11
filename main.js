@@ -1,32 +1,26 @@
-var myDiv = document.getElementById("text");
-function scrolled() {
-    
-    if (window.pageYOffset < 100) {
-        myDiv.style.opacity = 1;
-    } else {
-        myDiv.style.opacity = 0.3;
-    }
+function checkScroll(){
+  var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+
+  if($(window).scrollTop() > startY){
+      $('.navbar').addClass("scrolled");
+  }else{
+      $('.navbar').removeClass("scrolled");
+  }
 }
 
-var elem = document.getElementById("text");
-function fadeOut(el){
-	if (window.pageYOffset < 50){
-	elem.style.transition = "opacity 0.5s linear 0s";
-    elem.style.opacity = 0;
-    }else{elem.style.transition = "opacity 0.5s linear 0s";
-	elem.style.opacity = 1;}
-}
-
-	
-	
-
-window.addEventListener('scroll', scrolled);
-
-const anime = require('lib/anime.js');
-anime({
-    targets: 'div',
-    translateX: 250,
-    rotate: '1turn',
-    backgroundColor: '#FFF',
-    duration: 800
+if($('.navbar').length > 0){
+  $(window).on("scroll load resize", function(){
+      checkScroll();
   });
+}
+
+$(function(){ 
+  var navMain = $(".navbar-collapse");
+
+  navMain.on("click", "a", null, function () {
+      navMain.collapse('hide');
+  });
+});
+
+
+
