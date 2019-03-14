@@ -257,6 +257,10 @@ h2 {
 @media screen and (max-width: 600px) {
   .landing-page-wrapper p:first-child {
     font-size: 52px; }
+  .navbar {
+    background: white;
+    /* NON-IE */
+    box-shadow: 0 0 10px #333; }
   .nav-item a:before {
     content: "";
     position: absolute;
