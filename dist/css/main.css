@@ -397,8 +397,8 @@ h2 {
     -webkit-transform: scaleX(1);
     transform: scaleX(1); }
   .landing-page {
-    height: 100vh;
-    width: 100%;
+    height: 100px;
+    width: 100px;
     background-image: url("/home2.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -541,8 +541,8 @@ h2 {
     -webkit-transform: scaleX(1);
     transform: scaleX(1); }
   .landing-page {
-    height: 100vh;
-    width: 100%;
+    height: 100px;
+    width: 100px;
     background-image: url("/home2.JPG");
     background-size: cover;
     background-repeat: no-repeat;
