@@ -373,12 +373,12 @@ h2 {
 
 @media only screen and (max-width: 600px) {
   .landing-page {
-    height: 400px;
+    height: 700px;
     width: 100%;
     background-image: url("/home2.JPG");
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 70% 50%;
     background-attachment: fixed;
     color: #3a4660; } }
 
