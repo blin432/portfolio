@@ -373,7 +373,7 @@ h2 {
 
 @media screen and (max-width: 600px) {
   .landing-page {
-    background-image: url(http://www.andymercer.net/wp-content/themes/andymercer/images/background/home.png);
+    background-image: url(/home2.JPG);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
