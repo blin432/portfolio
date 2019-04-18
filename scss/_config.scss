@@ -16,19 +16,19 @@
   }
 
 @mixin mediaLg{
-    @media screen and (max-width:1000px){
+    @media screen and (max-width: 1000px) {
         @content;
     }
 }
 
 @mixin mediaMd{
-    @media screen and (max-width:600px){
+    @media screen and (max-width: 600px) {
         @content;  
     }
 }
 
 @mixin mediaSm{
-  @media screen and (max-width:400px){
+  @media screen and (max-width: 400px) {
       @content;  
   }
 }

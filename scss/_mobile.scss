@@ -31,13 +31,13 @@
         transform: scaleX(1);
     }
     .landing-page{
-        height:100px;
-        width:100px;
+        height:100vh;
+        width:100%;
         background-image: url("/home2.JPG");
         background-size:cover;
         background-repeat: no-repeat;
         background-position: 70% 50%;
-        background-attachment: fixed;
+    
         color:#3a4660;
     }
     .wrapper{
@@ -221,12 +221,13 @@
         transform: scaleX(1);
     }
     .landing-page{
-        height:100px;
-        width:100px;
+        height:100vh;
+        width:100%;
         background-image: url("/home2.JPG");
         background-size:cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-position: 70% 50%;
+       
         color:#3a4660;
     }
     .wrapper{
