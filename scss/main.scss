@@ -426,4 +426,19 @@ h2{
       }
     }
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .landing-page{
+    height:700px;
+    width:100%;
+    background-image: url("/home2.JPG");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color:#3a4660;
+}
+  }
+
 @import 'mobile';
