@@ -102,7 +102,6 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-color: #eca082;
   color: #3a4660; }
 
 .about-me-section {
@@ -211,7 +210,7 @@ h2 {
   font-size: 84px;
   letter-spacing: .15em;
   /* Adjust as needed */
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-name: fadeIn; }
 
 .landing-page-wrapper p {
@@ -247,7 +246,7 @@ h2 {
   /* Ensures the content is not revealed until the animation */
   letter-spacing: .15em;
   /* Adjust as needed */
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-name: fadeIn;
   white-space: nowrap;
   /* Keeps the content on a single line */
@@ -405,7 +404,6 @@ h2 {
     background-repeat: no-repeat;
     background-position: 70% 50%;
     background-attachment: fixed;
-    background-color: #eca082;
     color: #3a4660; }
   @keyframes typing {
     from {
