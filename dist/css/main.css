@@ -97,6 +97,11 @@ h2 {
 
 .landing-page {
   height: 100vh;
+  background-image: url("/home2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   background-color: #eca082;
   color: #3a4660; }
 
@@ -240,8 +245,10 @@ h2 {
 .landing-page-wrapper p:nth-child(2) {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange;
-  /* The typwriter cursor */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation-duration: 3s;
+  animation-name: fadeIn;
   white-space: nowrap;
   /* Keeps the content on a single line */
   margin: 0 auto;
@@ -250,8 +257,7 @@ h2 {
   /* Adjust as needed */
   font-size: 24px;
   letter-spacing: .15em;
-  /* Adjust as needed */
-  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite; }
+  /* Adjust as needed */ }
 
 .landing-page-wrapper {
   margin-bottom: 150px; }
@@ -391,6 +397,16 @@ h2 {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1); }
+  .landing-page {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/home2.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 50%;
+    background-attachment: fixed;
+    background-color: #eca082;
+    color: #3a4660; }
   @keyframes typing {
     from {
       width: 0; }
