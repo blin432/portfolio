@@ -414,7 +414,7 @@ h2 {
   margin: 10px;
   transform: scale(0.95);
   transition: box-shadow 0.5s, transform 0.5s; }
-  .wrapper:hover {
+  .wrapper:focus {
     transform: scale(1);
     box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2); }
   .wrapper .container5 {
@@ -477,17 +477,17 @@ h2 {
       top: 81px;
       color: white;
       opacity: 1; }
-    .wrapper .inside:focus {
+    .wrapper .inside:hover {
       width: 100%;
       right: 0;
       top: 0;
       border-radius: 0;
       height: 85%; }
-      .wrapper .inside:focus .icon {
+      .wrapper .inside:hover .icon {
         opacity: 0;
         right: 15px;
         top: 15px; }
-      .wrapper .inside:focus .contents {
+      .wrapper .inside:hover .contents {
         opacity: 1;
         transform: scale(1);
         transform: translateY(0); }
