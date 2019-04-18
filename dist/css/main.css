@@ -477,17 +477,17 @@ h2 {
       top: 81px;
       color: white;
       opacity: 1; }
-    .wrapper .inside:hover, .wrapper .inside:active {
+    .wrapper .inside:focus {
       width: 100%;
       right: 0;
       top: 0;
       border-radius: 0;
       height: 85%; }
-      .wrapper .inside:hover .icon, .wrapper .inside:active .icon {
+      .wrapper .inside:focus .icon {
         opacity: 0;
         right: 15px;
         top: 15px; }
-      .wrapper .inside:hover .contents, .wrapper .inside:active .contents {
+      .wrapper .inside:focus .contents {
         opacity: 1;
         transform: scale(1);
         transform: translateY(0); }
