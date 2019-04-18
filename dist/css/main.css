@@ -536,6 +536,7 @@ h2 {
     height: 100vh;
     width: 100%;
     background-size: cover;
+    background-image: none;
     background-color: #eca082;
     background-attachment: fixed;
     color: #3a4660; }
