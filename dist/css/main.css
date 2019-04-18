@@ -508,7 +508,8 @@ h2 {
 
 @media screen and (max-width: 400px) {
   .landing-page-wrapper p:first-child {
-    font-size: 52px; }
+    font-size: 52px;
+    margin-top: 209px; }
   .navbar {
     background: white;
     /* NON-IE */
@@ -534,7 +535,13 @@ h2 {
   .landing-page {
     height: 100vh;
     width: 100%;
-    background-image: none;
-    background-color: #eca082;
+    background-image: url("/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     background-attachment: fixed;
-    color: #3a4660; } }
+    color: #3a4660; }
+  .about-me-picture {
+    border-right: none; }
+  .about-me-description {
+    border-left: none; } }
