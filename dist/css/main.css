@@ -371,9 +371,9 @@ h2 {
       .wrapper .inside .contents p {
         font-size: 13px; }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .landing-page {
-    height: 700px;
+    height: 100vh;
     width: 100%;
     background-image: url("/home2.JPG");
     background-size: cover;
