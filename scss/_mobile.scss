@@ -212,20 +212,28 @@
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
-
-  .landing-page{
+.landing-page{
   height:100vh;
-  width:100%;
-  // background-image: url("/home.jpg");
+  background-image: url("/home2.jpg");
   background-size:cover;
-  // background-repeat: no-repeat;
-  // background-position: 50% 50%;
-  // background-attachment: fixed;
-  background-image:none;
-  background-color:#eca082;
-  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
   color:#3a4660;
 }
+//   .landing-page{
+//   height:100vh;
+//   width:100%;
+//   // background-image: url("/home.jpg");
+//   background-size:cover;
+//   // background-repeat: no-repeat;
+//   // background-position: 50% 50%;
+//   // background-attachment: fixed;
+//   background-image:none;
+//   background-color:#F4FAFF;
+//   background-attachment: fixed;
+//   color:#3a4660;
+// }
 .about-me-picture{
   border-right:none;
 }
