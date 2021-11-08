@@ -540,7 +540,7 @@ h2 {
     transform: scaleX(1); }
   .landing-page {
     height: 100vh;
-    background-image: url("/home2.jpg");
+    /* background-image: url("/home2.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 60% 50%;
